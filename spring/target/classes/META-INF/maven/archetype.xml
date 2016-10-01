@@ -1,0 +1,19 @@
+<archetype>
+  <id>spring</id>
+  <sources>
+  	<source>src/main/java/MiController.java</source>
+  </sources>
+  <testSources>
+  	<source>src/test/java/MiControllerTest.java</source>
+  </testSources>
+  <resources>
+  	<resource>WebContent/css/estilo.css</resource>
+  	<resource>WebContent/html/holamundo.html</resource>
+  	<resource>WebContent/js/miscript.js</resource>
+  	<resource>WebContent/META-INF/MANIFEST.MF</resource>
+  	<resource>WebContent/WEB-INF/dispatcher-servlet.xml</resource>
+  	<resource>WebContent/WEB-INF/inicio.jsp</resource>
+  	<resource>WebContent/WEB-INF/web.xml</resource>
+  	<resource>src/main/resources/log4j.properties</resource>
+  </resources>
+</archetype>
